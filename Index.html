@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Intro to Programming</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		
+	</head>
+<body>
+	<div class="header">
+	<h1 style="text-align: center;">Welcome to my Introduction to Programming Learning Page</h1>
+		<a id="home"></a>
+	</div>
+	<div class="nav">
+	<ul>
+			<li id="nav-home"><a href="#home">Home</a></li>
+			<li id="nav-web"><a href="#web">WWW</a></li>
+			<li id="nav-html"><a href="#html">HTML</a></li>
+			<li id="nav-css"><a href="#css">CSS</a></li>
+			<li id="nav-python"><a href="#python">Python</a></li>
+			<li id="nav-functions"><a href="#functions">Functions</a></li>
+			<li id="nav-strings"><a href="#strings">Strings</a></li>
+			<li id="nav-structures"><a href="#structures">Structures</a></li>
+			<li id="nav-loops"><a href="#loops">Loops</a></li>
+			<li id="nav-aboutme"><a href="#aboutme">About Me</a></li>
+	</ul>	
+	</div>
+	<div class="section">
+	<a id="web"></a>
+	<p class="subtitle">World Wide Web</p>
+		<p class="notes">World Wide Web is collection of web pages which are made up of text files.  
+		These files contain image, text, links to other pages, video, and HTML tags.
+		A browser uses these text documents along with other files for styling and scripting to display what we see on the screen.</p>
+	<a id="html"></a>
+	<p  class="subtitle">HTML Basics</p>
+		<p class="notes">HTML (Hypertext Markup Language) is a language used by a browser to display a web page.  
+		HTML is made up of series of tags that hold instructions for the computer.  
+		Tags are basically commands for the browser. HTML document can only contain text and can be created using editors like Sublime, 
+		Notepad++, etc.  
+		As you write any code it is important to remember not to repeat code since all that code has to be maintained.  
+		Don't Repeat Yourself (DRY) is one of the fundamental principal of programming. 
+		It is also important that when writing HTML code you should use logical approach in structuring your page.
+		You can do this by grouping related content within an HTML element.  
+		For example, I have broken my page into four groups using &lt;div&gt; element as follows: header, nav, section, and footer.  <br />
+		Each web page has a basic structure that consists of some base tags like HTML, head, and body.
+		Other sub tags branch out from these base tags forming a tree like structure. 
+		Most tags come in pair of an opening and closing tags; however there are some that have no closing tags.
+		Below are some examples of tags and their function.  
+		For additional tags and their functions <a href="http://www.w3schools.com/tags/default.asp">click here.</a></p>	
+		    <table class="table"> 
+		    <caption><span style="Font-weight: Bold; Font-size:26px;">Basic HTML tags and their functions</span></caption>
+		    <tr> 
+			    <th id="th1">&lt;!DOCTYPE&gt;</th>
+			    <th id="th2">&lt;head&gt;</th>
+			    <th id="th3">&lt;body&gt;</th>
+		    </tr>
+		    <tr>
+			    <td>Identifies document type</td>
+			    <td>Represents the head section of a web page. <br /></td>
+			    <td>Content of a web page.</td>
+		    </tr>
+		    <tr>
+			    <td><strong>&lt;HTML&gt;</strong></td>
+			    <td><ul>
+				    <li><strong>&lt;title&gt;</strong> - Title on the page tab.</li>
+				    <li><strong>&lt;meta&gt;</strong> - provides information about the data </li> 
+				    <li><strong>&lt;style&gt;</strong> - provides style information for the web page</li> 
+				    <li><strong>&lt;script&gt;</strong> - contains scripting statements</li>
+				    </ul>
+			    </td>
+			    <td> <ul>
+				    <li><strong>&lt;h1&gt;</strong> thru <strong>&lt;h6&gt;</strong> defines different headings</li>
+				    <li><strong>&lt;div&gt;</strong> - defines sections within a web page</li>
+				    </ul>
+			    </td>
+		    </tr>
+		    <tr>
+			    <td></td>
+			    <td></td>
+			    <td> <span>sub-elements or branches of <strong>&lt;div&gt;</strong> and <strong>&lt;h1&gt;</strong> thru <strong>&lt;h6&gt;</strong>:</span>
+				    <ul  class="sub-elements">
+				    <li><strong>&lt;text&gt;</strong></li>
+				    <li><strong>&lt;p&gt;</strong> - paragraph</li>
+				    <li><strong>&lt;span&gt;</strong> - used to group in-line elements</li>
+				    <li><strong>&lt;img&gt;</strong> - defines an image</li>
+					<li><strong>&lt;table&gt;</strong> - defines a table</li>
+				    <li>etc..</li>
+			    </ul>
+			   </td>
+		    </tr>		
+	    	</table>
+		<p class="notes">To provide additional information about an element, attributes like <em> bgcolor, color, 
+			    border, align, </em>etc. can be applied.</p>	
+	<a id="css"></a>
+	<p  class="subtitle">Cascading Style Sheet</p>
+			<p class="notes"><strong>CSS </strong>(Cascading Style Sheet) is a language used to create presentation of a webpages.  
+			While HTML allows you to structure your content CSS allows you to keep your content separate from your styling.  
+			Style can be included in a web page by linking the CSS file in the HTML document or by writing style in-line with HTML.  
+			Last option is not preferred since it may cause a lot of repeated code.
+			When you create CSS file, it is easier and cleaner to have same class name for similar elements. 
+			This is because when you create your CSS file you only have to write your styles for that one class instead of 
+			writing same style multiple times.In my webpage, I have created a class called "notes" that is used several times 
+			in my HTML page and have applied same formatting.    
+			For list of CSS properites <a href="http://www.w3schools.com/cssref/default.asp">click here.</a></p> 
+	
+    <a id= "python"></a> 
+    <p class="subtitle">Python</p>
+    	<p class="notes">
+        Python is a programming language. When code writtein in Python is executed, Python interpreter converts the code into set of instructions. 
+    	Since computers are dumb, code that you write has to be granatically correct in Python language.
+		</p>
+    <a id= "functions"></a> 
+    <p class="subtitle">Functions</p>
+    	<p class="notes">
+        Functions are block of code that is self contained.  It takes some input, does processing based on instructions provided in the code, 
+    	and return some output.  Function block starts wiht "def" key word followed by function name and "()" which can contain variables.
+		</p>
+    <a id= "strings"></a> 
+    <p class="subtitle">Strings</p>
+    	<p class="notes">
+        Strings are created when you enclose characters in quotes.  Strings can be manipulated in Python using various built in functions like: find, len, [] with index number for getting substring
+		</p>
+    <a id= "structures"></a> 
+    <p class="subtitle">Structures</p>
+    	<p class="notes">
+        Data structures basiclly hold related data. Python has different types of data structures that include lists, tuples, dictionaries, etc. <br />
+    	Lists contain orderd items and can contain values of any type.  Lists are also mutable which means they can be modified. Some list operators are 'append', '+'' and 'len'. <br />
+    	*  Append- is a method that adds an element at the end of a list.  Syntax for append is '&lt;list&gt;>.append(&lt;element&gt;'). <br />
+    	*  '+'  takes two lists and produces new list combining elements from both lists.  It does not mutate the list. <br />
+    	* 'len' is another list operator that gives number of elements in a list. <br />
+    	* 'index' - finds the position of a value in a list<br />
+    	</p>			
+    <a id= "Loops"></a> 
+    <p class="subtitle">Loops</p>
+    	<p class="notes">
+    	Loops - are usefull when you want to execute same code until certain condition is met.  Using Loop reduces repeated code.  Loops can be exited by using 'break' statement.  Break statement resumes code at next statement in your block.  Other statements like 'pass' and 'continue' are also used to exit a loop. The two main types of loop are as follows: <br />
+    	 * while loop - run the code while a condition is true.<br />
+    	 * for loop  - runs the code multiple times.<br />
+		</p>
+	</div>
+	<div class="footer">
+		<a id="aboutme"></a>
+		<article class="about me">
+		<h4 style="align:center; color:red;font-style:italic; margin-left:60px;"> About Me:  My Name is Mamta Amin and I'm taking this Nanodegree to gain some fundamental knowledge on programming.
+		My goal is to eventually take Data Analyst Nanodegree.</h4>
+		</article>
+ 		
+	</div>
+</body>
+</html>
+
